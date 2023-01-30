@@ -1,0 +1,5 @@
+import torch
+import torchvision.models as models
+
+# Load a pre-trained model, such as ResNet-18
+model = models.resnet18(pretrained=True)
