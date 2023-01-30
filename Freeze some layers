@@ -1,0 +1,3 @@
+# Freeze early layers to prevent modification during fine-tuning
+for param in model.parameters():
+    param.requires_grad = False
