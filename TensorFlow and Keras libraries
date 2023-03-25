@@ -1,0 +1,8 @@
+# Import the necessary libraries
+from tensorflow import keras
+
+# Load the pre-trained model
+model = keras.models.load_model('path/to/pretrained_model.h5')
+
+# Load the dataset for fine-tuning
+(x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()
