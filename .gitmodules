@@ -1,0 +1,3 @@
+[submodule "Documents/aiGPT-main/Documents/aiGPT-main/aiGPT"]
+	path = Documents/aiGPT-main/Documents/aiGPT-main/aiGPT
+	url = https://github.com/AiDriveOne/aiGPT.git

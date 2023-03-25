@@ -1,0 +1,21 @@
+class AiRiderUser(AiDriveUser):
+    def view_delivery_history(self):
+        pass
+
+class DeliveryRequest:
+    def create_request(self, pickup_location, dropoff_location, package_details, special_instructions):
+        pass
+
+class DeliveryNavigation(Navigation):
+    pass
+
+class DeliveryTracking:
+    def track_delivery(self, delivery_id):
+        pass
+
+class DeliveryDriverInfo:
+    def get_driver_info(self, driver_id):
+        pass
+
+class DeliveryReviews(Reviews):
+    pass

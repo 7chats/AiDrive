@@ -1,0 +1,67 @@
+class AiDriveUser:
+    def signup(self, username, password, email):
+        pass
+
+    def login(self, username, password):
+        pass
+
+    def reset_password(self, email):
+        pass
+
+    def edit_profile(self, new_profile_data):
+        pass
+
+    def upload_photo(self, photo):
+        pass
+
+    def view_user_history(self):
+        pass
+
+class Vehicle:
+    def add_vehicle(self, vehicle_data):
+        pass
+
+    def edit_vehicle(self, vehicle_data):
+        pass
+
+    def remove_vehicle(self, vehicle_id):
+        pass
+
+class Navigation:
+    def plan_route(self, start_point, end_point):
+        pass
+
+    def get_traffic_updates(self):
+        pass
+
+class AppSettings:
+    def set_push_notifications(self, enable):
+        pass
+
+    def set_language(self, language):
+        pass
+
+    def set_privacy(self, privacy_settings):
+        pass
+
+class Messaging:
+    def chat(self, user_id, message):
+        pass
+
+class Payment:
+    def process_payment(self, payment_data):
+        pass
+
+class Reviews:
+    def rate(self, target_id, rating):
+        pass
+
+    def review(self, target_id, review_text):
+        pass
+
+class HelpCenter:
+    def get_help(self, topic):
+        pass
+
+    def get_faq(self):
+        pass

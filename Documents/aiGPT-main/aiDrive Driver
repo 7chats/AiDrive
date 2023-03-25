@@ -1,0 +1,47 @@
+class AiDriveDriver:
+    def signup(self, username, password, email):
+        pass
+
+    def login(self, username, password):
+        pass
+
+    def reset_password(self, email):
+        pass
+
+    def edit_profile(self, new_profile_data):
+        pass
+
+    def upload_documents(self, documents):
+        pass
+
+    def view_driver_history(self):
+        pass
+
+class JobManagement:
+    def view_available_jobs(self):
+        pass
+
+    def accept_job(self, job_id):
+        pass
+
+    def reject_job(self, job_id):
+        pass
+
+    def track_job(self, job_id):
+        pass
+
+class Earnings:
+    def track_earnings(self):
+        pass
+
+    def manage_payouts(self):
+        pass
+
+class DriverAppSettings(AppSettings):
+    pass
+
+class DriverReviews(Reviews):
+    pass
+
+class DriverHelpCenter(HelpCenter):
+    pass

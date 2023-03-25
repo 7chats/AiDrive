@@ -1,0 +1,33 @@
+class AiFoodUser(AiDriveUser):
+    def view_order_history(self):
+        pass
+
+class Restaurant:
+    def search(self, filters):
+        pass
+
+    def browse_menu(self, restaurant_id):
+        pass
+
+    def customize_menu_item(self, menu_item_id, customization_data):
+        pass
+
+class ShoppingCart:
+    def add_item(self, menu_item_id):
+        pass
+
+    def remove_item(self, menu_item_id):
+        pass
+
+    def checkout(self):
+        pass
+
+class OrderTracking:
+    def track_order(self, order_id):
+        pass
+
+class FoodReviews(Reviews):
+    pass
+
+class FoodHelpCenter(HelpCenter):
+    pass
