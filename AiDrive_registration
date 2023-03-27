@@ -1,0 +1,14 @@
+def AiDrive_registration():
+    print("Welcome to AiDrive registration!")
+    user_type = input("Are you an individual, business/organization, heavy equipment/truck owner, or customer? ")
+    if user_type.lower() == "individual":
+        print("You can register with AiDrive to provide delivery services and earn money on your own terms.")
+    elif user_type.lower() == "business" or user_type.lower() == "organization":
+        print("AiDrive provides cost-effective and flexible solutions for businesses and organizations that require transportation and delivery services.")
+    elif user_type.lower() == "heavy equipment" or user_type.lower() == "truck owner":
+        print("Owners of heavy equipment, trucks, and water tanks can register with AiDrive to provide their services to construction companies, contractors, and other customers.")
+    elif user_type.lower() == "customer":
+        print("AiDrive offers a seamless delivery experience for customers who require delivery services for a wide range of items, including food delivery, groceries, and online orders.")
+    else:
+        print("Invalid user type entered. Please try again.")
+
